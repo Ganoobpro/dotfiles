@@ -55,8 +55,13 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 
 
-# Alias
+# ALIAS
+# List color files
 alias ls='ls --color'
+# Reset zsh
+alias rssh='source ~/.zshrc'
+# Reset font
+alias rsf='fc-cache -f -v'
 
 # Shell integrations
 eval "$(fzf --zsh)"

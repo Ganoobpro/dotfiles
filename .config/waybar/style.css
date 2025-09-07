@@ -19,6 +19,7 @@
 /* --- Left Modules (Individual, Fully Rounded Blocks - With Horizontal Spacing & Simple Hover) --- */
 #workspaces,
 #custom-uptime,
+#memory,
 #cpu {
   background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
@@ -41,8 +42,13 @@
   margin-right: 5px; /* Spacing after the uptime module */
 }
 
+#memory {
+  margin-right: 5px; /* Spacing after the uptime module */
+}
+
 /* Simple Hover effects for individual left modules - BRIGHTER COLOR */
 #custom-uptime:hover,
+#memory:hover,
 #cpu:hover {
   background-color: rgb(41, 42, 53); /* Brighter highlight */
 }
@@ -149,6 +155,10 @@
   background-color: rgb(41, 42, 53);
 }
 
+#custom-lock {
+  margin: 5px; 
+}
+
 #bluetooth {
   margin-left: 0px; 
   border-top-left-radius: 6px;
@@ -163,6 +173,9 @@
 
 #custom-uptime {
   color: #babbf1;
+}
+#memory {
+  color: #c6d0f5;
 }
 #cpu {
   color: #c6d0f5;
@@ -222,3 +235,5 @@ tooltip {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-size: 12px;
 }
+
+
