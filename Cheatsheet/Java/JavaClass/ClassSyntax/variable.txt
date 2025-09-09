@@ -1,9 +1,10 @@
 ✦•┈๑⋅⋯ VARIABLE ⋯⋅๑┈•✦
+
   [ Declare variable ]
+
       [ Access_modifier ] [ Static ] [ Final ] <Type> Name [ = Initial value ] ;
 
-    // Fields in class
-    [ Access Modifier ]
+    [ Access Modifier (Fields in class) ]
       public      (public)      access everywhere
       package     ()            can only be accessed by files in the same package (folder)
       protected   (protected)   can only be accessed by subclass
