@@ -1,0 +1,18 @@
+✦•┈๑⋅⋯ JAVA CLASS ⋯⋅๑┈•✦
+  [ Building Blocks ]
+    [ Fields ]
+      - Java class has 3 fields
+        (Read ./variable.txt for more information)
+
+    [ Constructors ]
+      - Constructors is just base, an initiation method of classes.
+      - Java constructors has 2 methods
+        (Read ./constructors.txt for more information)
+
+    [ Methods ]
+      - Java methods is just function which live inside java class
+
+    [ Nested Classes ]
+      - Nested class is class is nested inside another class, method, or a scoop block.
+      - It have code more readable and easier to apply abstraction.
+        (Read ./nestedclass.txt for more information)

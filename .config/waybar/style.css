@@ -1,7 +1,7 @@
 /* --- Global Styles --- */
 * {
   font-family: 'SF Pro Text', 'Inter', 'Segoe UI, NotoSans Nerd Font', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   min-height: 0;
   padding-right: 0px;
   padding-left: 0px;
@@ -123,9 +123,12 @@
 /* --- Highlighted state for Pomodoro module when running (work or break) --- */
 #custom-pomodoro.work,
 #custom-pomodoro.break {
-  color: #99d1db; /* Text color consistent with active workspaces button */
-  background-color: rgba(153, 209, 219, 0.1); /* Background color consistent with active workspaces button */
-  box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2); /* Inner shadow for outline effect */
+  /* color: #99d1db;  Text color consistent with active workspaces button */
+  color: #072a6c;
+  /* background-color: rgba(153, 209, 219, 0.1);  Background color consistent with active workspaces button */
+  background-color: rgba(7, 42, 108, 0.1);
+  /* box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2);  Inner shadow for outline effect */
+  box-shadow: inset 0 0 0 1px rgba(7, 42, 108, 0.2);
   outline: none;
 }
 

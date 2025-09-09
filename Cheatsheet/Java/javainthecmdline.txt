@@ -1,0 +1,6 @@
+✦•┈๑⋅⋯ JAVA IN THE COMMAND LINE ⋯⋅๑┈•✦
+  [ Create a Package ]
+    For example, if you want to create package com.mycompany.myproject, then you need to start in the base directory for your project and then:
+      (1) create directory com/mycompany/myproject
+      (2) create java files in that directory, stating 'package com.mycompany.myproject' in them
+      (3) compile the files, for example, with 'javac -cp . com/mycompany/myproject/*.java'

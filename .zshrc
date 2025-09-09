@@ -72,7 +72,4 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/1_shell.omp.json)"
 # Zoxide
 eval "$(zoxide init zsh)"
 
-# Linar nvim (lvim)
-export PATH="$HOME/.local/bin":$PATH
-
 . "$HOME/.local/share/../bin/env"

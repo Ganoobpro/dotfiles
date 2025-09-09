@@ -1,0 +1,34 @@
+✦•┈๑⋅⋯ VARIABLE ⋯⋅๑┈•✦
+  [ Declare variable ]
+      [ Access_modifier ] [ Static ] [ Final ] <Type> Name [ = Initial value ] ;
+
+    // Fields in class
+    [ Access Modifier ]
+      public      (public)      access everywhere
+      package     ()            can only be accessed by files in the same package (folder)
+      protected   (protected)   can only be accessed by subclass
+      private     (private)     can only be accessed by itself
+
+    [ Static ]
+      static      (static)      UNIQUE variable across all members
+      non-static  ()            separate copy for each member
+
+      [ Note ]
+        - Each time you call the class, you create a member
+        - Student s1 = new Student(); // s1 is a member
+
+    [ Final ]
+      final + variable          Const variable
+      final + methods           Prevent method from override
+      final + classes           Prevent inheritance
+
+    < Type >
+      - Just fucking google it.
+
+  [ Scoop Block ]
+    [ Definition ]
+      - {...} // Scoop block is just '{', '}'
+      - You can even create scoop without anything like: for, while, ...
+
+    [ Usage ]
+      - To create temporary variables, classes, methods, ...

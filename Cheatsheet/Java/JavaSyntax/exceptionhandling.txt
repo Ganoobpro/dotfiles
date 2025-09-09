@@ -1,0 +1,15 @@
+✦•┈๑⋅⋯ EXCEPTION HANDLING ⋯⋅๑┈•✦
+  [ Syntax ]
+    try {
+      // Your code
+    }
+    catch ( <Exception 1> e) {
+      // Print something like if you catch NumberFormatException, you can print "You can't make number out of it."
+    }
+    catch ( <Exception 2> | <Exception 3> e) {
+      // You can also catch many times and can catch multi exception in just one catch
+    }
+    ...
+    finally () {
+      // Finally is opitional (but recommended)
+    }
