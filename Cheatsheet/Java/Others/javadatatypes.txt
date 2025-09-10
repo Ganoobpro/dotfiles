@@ -1,5 +1,0 @@
-✦•┈๑⋅⋯ JAVA DATA TYPES ⋯⋅๑┈•✦
-  [ Properties ]
-    - Java properties is like a java map.
-    - Properties is a class that has been part of Java since Java 1.0 before Map and HashMap.
-    - Properties has some important functionality that HashMap does not provide; i.e. the ability to load and save the properties in 2 standard human readable formats.
